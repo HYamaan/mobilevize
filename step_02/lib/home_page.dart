@@ -11,6 +11,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool _isChecked = false;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Firebase Meetup'),
