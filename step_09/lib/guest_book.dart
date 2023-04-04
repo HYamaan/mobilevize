@@ -50,6 +50,9 @@ class _GuestBookState extends State<GuestBook> {
                       }
                       return null;
                     },
+                    style: TextStyle(
+                      color: checkboxValue ? Colors.blue : Colors.red,
+                    ),
                   ),
                 ),
                 const SizedBox(width: 8),
